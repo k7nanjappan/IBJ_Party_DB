@@ -1,7 +1,0 @@
-INSERT INTO t_member (member_id, member_cd, gender_kbn, family_kj, first_kj, family_kn, first_kn, birthday_ts) VALUES (1, 'M88035', '00101', '山田', '太郎', 'やまだ', 'たろう', '1982-02-02 0:00:00');
-INSERT INTO t_member (member_id, member_cd, gender_kbn, family_kj, first_kj, family_kn, first_kn, birthday_ts) VALUES (2, 'M24333', '00101', '佐藤', '宏', 'さとう', 'ひろし', '1991-08-16 0:00:00');
-INSERT INTO t_member (member_id, member_cd, gender_kbn, family_kj, first_kj, family_kn, first_kn, birthday_ts) VALUES (3, 'F12414', '00102', '田中', '花子', 'たなか', 'はなこ', '1990-05-11 0:00:00');
-INSERT INTO t_member (member_id, member_cd, gender_kbn, family_kj, first_kj, family_kn, first_kn, birthday_ts) VALUES (4, 'M96432', '00101', '佐々木', '大輔', 'ささき', 'だいすけ', '1980-10-09 0:00:00');
-INSERT INTO t_member (member_id, member_cd, gender_kbn, family_kj, first_kj, family_kn, first_kn, birthday_ts) VALUES (5, 'F42677', '00102', '上野', '愛', 'うえの', 'あい', '1988-12-23 0:00:00');
-INSERT INTO t_member (member_id, member_cd, gender_kbn, family_kj, first_kj, family_kn, first_kn, birthday_ts) VALUES (6, 'F55543', '00102', '遠藤', '裕美', 'えんどう', 'ゆみ', '1992-03-30 0:00:00');
-INSERT INTO t_member (member_id, member_cd, gender_kbn, family_kj, first_kj, family_kn, first_kn, birthday_ts) VALUES (7, 'M36945', '00101', '前田', '三郎', 'まえだ', 'さぶろう', '1985-05-02 0:00:00');

@@ -1,9 +1,0 @@
-INSERT INTO t_party_member (party_member_id, party_id, member_id) VALUES (1, 3, 1);
-INSERT INTO t_party_member (party_member_id, party_id, member_id) VALUES (2, 3, 4);
-INSERT INTO t_party_member (party_member_id, party_id, member_id) VALUES (3, 1, 6);
-INSERT INTO t_party_member (party_member_id, party_id, member_id) VALUES (4, 3, 7);
-INSERT INTO t_party_member (party_member_id, party_id, member_id) VALUES (5, 2, 4);
-INSERT INTO t_party_member (party_member_id, party_id, member_id) VALUES (6, 2, 6);
-INSERT INTO t_party_member (party_member_id, party_id, member_id) VALUES (7, 2, 1);
-INSERT INTO t_party_member (party_member_id, party_id, member_id) VALUES (8, 2, 5);
-INSERT INTO t_party_member (party_member_id, party_id, member_id) VALUES (9, 1, 7);
