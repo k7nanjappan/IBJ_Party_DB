@@ -1,0 +1,4 @@
+INSERT INTO t_party (party_id, title, start_ts, end_ts, place_id, price_man, price_woman) VALUES (1, '男女20代限定パーティー', '2018-05-18 14:00:00', '2018/05/18 15:30:00', 3, 3000, 2000);
+INSERT INTO t_party (party_id, title, start_ts, end_ts, place_id, price_man, price_woman) VALUES (2, '料理好き集まれ！クッキングパーティー', '2018-05-19 16:00:00', '2018/05/19 18:00:00', 1, 4000, 3000);
+INSERT INTO t_party (party_id, title, start_ts, end_ts, place_id, price_man, price_woman) VALUES (3, '1年以内に結婚したい30代限定パーティー', '2018-05-20 10:00:00', '2018/05/20 12:00:00', 2, 4000, 3000);
+INSERT INTO t_party (party_id, title, start_ts, end_ts, place_id, price_man, price_woman) VALUES (4, 'BBQ婚活パーティー', '2018-05-26 11:00:00', '2018/05/26 14:00:00', 4, 5000, 4000);
