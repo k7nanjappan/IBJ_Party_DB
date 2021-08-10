@@ -19,3 +19,8 @@ SQL問題クエリ
 -----------
 
 Party_DB/1_SQL/Queries/でSQLクエリを見つけます。
+
+ストアド問題クエリ
+-----------
+
+Party_DB/1_SQL/Queries/でストアドのSQLクエリを見つけます。
