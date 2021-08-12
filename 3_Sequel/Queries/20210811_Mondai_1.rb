@@ -18,8 +18,8 @@ puts "\n"
 
 puts DB[:t_member].select(Sequel.as(:member_cd,:会員CD), 
 Sequel.as(Sequel.case({{gender_kbn: ['00101']} => '男性'},'女性'),:性別), 
-Sequel.as(:family_kj, :名前), 
-Sequel.as(Sequel.cast(:birthday_ts, :date), :誕生日)).where(:member_id => [2,3,4]).all
+Sequel.as(:family_kj, :名前))
+.select_more{to_char(:birthday_ts, 'YYYY/MM/DD').as(:誕生日)}.where(:member_id => [2,3,4]).all
 
 puts "\n"
 puts "\n"
