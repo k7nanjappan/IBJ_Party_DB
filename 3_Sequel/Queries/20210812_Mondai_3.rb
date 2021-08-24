@@ -20,7 +20,11 @@ puts "\n"
 
 puts DB[:t_party].select(Sequel.as(Sequel[:t_party][:party_id],:パーティーID), 
 Sequel.as(Sequel[:t_party][:title], :パーティー名))
+<<<<<<< HEAD
 .select_more{to_char(:start_ts, 'YYYY/MM/DD HH24:MI').as(:誕生日)}
+=======
+.select_more{to_char(:start_ts, 'YYYY/MM/DD HH24:MI').as(:開催日時)}
+>>>>>>> parent of 309727d (Changed all sequel programs with Alias)
 .join(:t_party_member, party_id: :party_id)
 .join(:t_member, member_id: :member_id)
 .group(Sequel[:t_party][:party_id])
